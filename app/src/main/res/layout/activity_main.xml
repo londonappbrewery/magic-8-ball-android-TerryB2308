@@ -20,7 +20,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:background="@color/colorPrimaryDark"
-        android:text="Make everyday decisions easier!"
+        android:text="@string/messageDisplay"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -30,7 +30,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        app:srcCompat="@drawable/ball1" />
+        app:srcCompat="@drawable/ball1"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/askButton"
@@ -39,7 +40,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="#3F51B5"
-        android:text="Ask"
+        android:text="@string/askButton"
         android:textColor="#FFFFFF" />
 
 </RelativeLayout>
